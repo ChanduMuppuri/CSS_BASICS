@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  align-content: center;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.pseudo-class-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pseudo-class-button:hover {
+  background-color: #45a049;
+}
+
+.pseudo-class-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.pseudo-class-input:focus {
+  border-color: #4CAF50;
+}
+
+.pseudo-class-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pseudo-class-list li {
+  padding: 10px;
+  background-color: #eee;
+  margin: 5px 0;
+  width: 100px;
+  text-align: center;
+}
+
+.pseudo-class-list li:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.pseudo-element-box {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: #2196F3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pseudo-element-box::before {
+  content: 'Before';
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: #ff5722;
+  padding: 5px;
+  color: white;
+}
+
+.pseudo-element-box::after {
+  content: 'After';
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  background-color: #ff5722;
+  padding: 5px;
+  color: white;
+}

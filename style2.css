@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Text Color Examples */
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+/* Background Examples */
+.background-example {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.background-example p {
+  padding: 10px;
+}
+
+/* Solid Background Color */
+.solid-color {
+  background-color: #ffd700; /* Gold */
+}
+
+/* Background Image */
+.image-background {
+  background-image: url('background.jpeg');
+  background-repeat: repeat;
+  /*background-size: cover;
+  background-position:left top;*/
+  color: red;
+  text-align: center;
+  height:500px
+}
+.para{
+  font-weight: bolder;
+}
+
+/* Gradient Background */
+.gradient-background {
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  color: #fff; 
+  text-align: center;
+}

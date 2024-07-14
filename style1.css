@@ -1,0 +1,52 @@
+/* Element selector */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Class selector */
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+/* ID selector */
+#main_heading{
+  background-color: yellow;
+}
+
+/* Attribute selector */
+a[href="#"] {
+  color: blue;
+  text-decoration: none;
+}
+
+a[href="#"]:hover {
+  text-decoration: underline;
+}
+
+/* Pseudo-class selector */
+p:first-child {
+  font-weight: bold;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+  color: red;
+}
+
+/* Selectors for list items */
+ul li {
+  list-style-type: square;
+}
+
+/* Selectors for specific elements */
+ul li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ul li:nth-child(odd) {
+  background-color: #e0e0e0;
+}
